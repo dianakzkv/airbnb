@@ -1,0 +1,31 @@
+.title {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.title__text {
+	font-size: 56px;
+	font-weight: bold;
+	color: #000;
+}
+
+.title__sub-block {
+	display: flex;
+	gap: 16px;
+}
+
+.title__sub-value {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+.title__sub-value:not(:last-child)::after {
+	content: "";
+	display: block;
+	height: 4px;
+	width: 4px;
+	border-radius: 4px;
+	background-color: #000;
+}

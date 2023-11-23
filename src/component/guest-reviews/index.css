@@ -1,0 +1,13 @@
+.review__cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 16px;
+}
+.review__card {
+	position: relative;
+}
+.rate {
+	position: absolute;
+	top: 24px;
+	right: 24px;
+}

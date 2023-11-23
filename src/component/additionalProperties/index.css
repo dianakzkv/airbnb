@@ -1,0 +1,15 @@
+.details {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.details__list {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.languages:not(:last-child)::after {
+	content: ", ";
+}

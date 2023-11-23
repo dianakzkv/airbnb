@@ -1,0 +1,26 @@
+.list-item {
+	border-bottom: 1px solid #dee2e6;
+	padding-bottom: 8px;
+	font-size: 16px;
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.list-item__block {
+	display: flex;
+	gap: 16px;
+	flex-direction: column;
+}
+
+.list-item__title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+}
+
+.list-item__content {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}

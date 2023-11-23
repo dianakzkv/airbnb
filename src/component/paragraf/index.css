@@ -1,0 +1,15 @@
+.text__block {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.text__title {
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+
+.text__text {
+	font-size: 16px;
+	color: #000;
+}
